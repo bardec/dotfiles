@@ -5,4 +5,4 @@ if ! [ -x "$(command -v stow)" ]; then
 	exit 1
 fi
 
-stow nvim
+stow nvim -t $HOME
